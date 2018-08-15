@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,23 @@
     <script src="main.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
     <?php echo "Hello World" ?>
 </body>
 </html>
+=======
+   
+
+   <?php
+   while (list($var,$value) = each ($_SERVER)) {
+      echo "$var => $value <br />";
+   };
+ echo "Hello World" ;?>
+</body>
+</html>
+=======
+<body>
+
+<?php echo "Hello world" ?>
+
+<body>
